@@ -6,3 +6,11 @@ jobs:
     steps:
       - name: 输出测试日志
         run: echo "手动触发成功，日志正常显示"
+      
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
