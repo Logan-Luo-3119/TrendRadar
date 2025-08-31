@@ -50,20 +50,20 @@ def load_config():
         "SILENT_PUSH": {
             "ENABLED": config_data["notification"]
             .get("silent_push", {})
-            .get("enabled", False),
+            .get("enabled", {}),
             "TIME_RANGE": {
                 "START": config_data["notification"]
                 .get("silent_push", {})
                 .get("time_range", {})
-                .get("start", "08:00"),
+                .get("start", {}),
                 "END": config_data["notification"]
                 .get("silent_push", {})
                 .get("time_range", {})
-                .get("end", "22:00"),
+                .get("end", {}),
             },
             "ONCE_PER_DAY": config_data["notification"]
             .get("silent_push", {})
-            .get("once_per_day", True),
+            .get("once_per_day", {}),
             "RECORD_RETENTION_DAYS": config_data["notification"]
             .get("silent_push", {})
             .get("push_record_retention_days", 7),
