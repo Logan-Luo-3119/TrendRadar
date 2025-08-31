@@ -18,6 +18,9 @@ deepsearch
 langraph
 langchain
 
+prompt
+context engineering
+
 AI开源项目
 
 MCP
