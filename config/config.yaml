@@ -39,8 +39,8 @@ notification:
     # 如果你想寻求稳定的按时的推送，建议通过 docker 部署在个人的服务器上
     time_range:
       start: "08:00"  # 推送时间范围开始（北京时间）
-      end: "10:00"    # 推送时间范围结束（北京时间）
-    once_per_day: true  # 每天在时间范围内只推送一次，如果 false，则时间范围内每次执行都推送一次
+      end: "20:00"    # 推送时间范围结束（北京时间）
+    once_per_day: false  # 每天在时间范围内只推送一次，如果 false，则时间范围内每次执行都推送一次
     push_record_retention_days: 7  # 推送记录保留天数
 
   # 请务必妥善保管好 webhooks，不要公开
@@ -66,7 +66,11 @@ platforms:
   - id: "baidu"
     name: "百度热搜"
   - id: "wallstreetcn-hot"
-    name: "华尔街见闻"
+    name: "华尔街见闻（最热）"
+  - id: "wallstreetcn-news"
+    name: "华尔街见闻（最新）"
+  - id: "wallstreetcn-quick"
+    name: "华尔街快讯"
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "bilibili-hot-search"
@@ -87,3 +91,5 @@ platforms:
     name: "ProductHunt"
   - id: "bilibili-hot-video"
     name: "B站热门视频"
+  - id: "36kr"
+    name: "36氪"
