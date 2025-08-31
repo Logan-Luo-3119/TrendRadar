@@ -91,5 +91,5 @@ platforms:
     name: "ProductHunt"
   - id: "bilibili-hot-video"
     name: "B站热门视频"
-  - id: "36kr"
+  - id: "36kr-quick"
     name: "36氪"
