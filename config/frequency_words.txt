@@ -4,6 +4,9 @@ hiagent
 coze
 扣子
 
+AI
+人工智能
+
 AI Agent
 aiagent
 Agent
@@ -28,6 +31,7 @@ MCP
 吴恩达
 +课程
 
+大模型
 Gemini
 Qwen
 doubao
@@ -38,8 +42,6 @@ vibe coding
 vibecoding
 
 OpenAI
-
-大模型
 
 智能助手
 AI Assistant
