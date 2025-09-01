@@ -1,3 +1,6 @@
+智能助手
+AI Assistant
+
 dify
 n8n
 hiagent
@@ -38,15 +41,16 @@ doubao
 豆包
 通义千问
 
+OpenAI
+chatgpt
+gpt
+
 vibe coding
 vibecoding
+codingagent
+coding agent
 
-OpenAI
-
-智能助手
-AI Assistant
-
-字节跳转
+字节跳动
 火山引擎
 阿里巴巴
 阿里云
