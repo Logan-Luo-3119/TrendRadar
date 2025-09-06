@@ -19,7 +19,9 @@ agent demo
 RAG
 
 deepresearch
+deep research
 deepsearch
+ai search
 
 langraph
 langchain
